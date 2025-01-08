@@ -1,0 +1,98 @@
+sudo apt update
+sudo apt upgrade -y
+shutdown -r now
+sudo apt update
+sudo apt install chromium
+cd
+sudo rm /etc/apt/preferences.d/nosnap.pref
+sudo systemctl status snapd
+sudo systemctl restart snapd
+sudo
+sudo systemctl restart snapd
+sudo systemctl status snapd
+sudo systemctl restart  snapd
+sudo systemctl status snapd
+sudo systemctl restart  snapd
+sudo systemctl status snapd
+sudo systemctl restart  snapd
+sudo systemctl status snapd
+sudo systemctl restart  snapd
+sudo systemctl status snapd
+sudo systemctl restart  snapd
+sudo systemctl status snapd
+sudo systemctl restart  snapd
+sudo systemctl status snapd
+sudo systemctl restart  snapd
+sudo systemctl status snapd
+sudo systemctl stop snapd
+sudo systemctl status snapd
+sudo systemctl restart snapd
+sudo systemctl status snapd
+sudo systemctl restart snapd
+sudo systemctl status snapd
+sudo systemctl stop snapd
+sudo systemctl status snapd
+sudo systemctl start snapd
+sudo systemctl status snapd
+sudo snap install pycharm-community --classic
+sudo apt-get install python3-setuptools
+sudo apt-get install python3-pip
+sudo apt-get install python3-tk
+shutdown -r now
+mkdir mytest
+ls
+sudo apt update
+sudo apt-get install python3-venv
+mkdir virtuals
+cd virtuals
+python3 -m venv myvirt1
+source myvirt1/bin/activate
+deactivate
+cd
+nano activ1.sh
+chmod +x activ1.sh
+. ./activ1.sh
+. -/activ1.sh
+nano activ1.sh
+chmod +x activ1.sh
+. ./activ1.sh
+deactivate
+. ~/activ1.sh
+pip3 install ipython
+pip3 install yupyter notebook
+pip3 install jupyter notebook
+deactivate
+. ~/activ1.sh
+ipython
+jupyter notebook
+deactivate
+sudo apt update
+sudo apt install git -y
+git config --list --show-origin
+git config --global user.name MariamiRus
+git config --global user.email mariamirusadze2003@gmail.com
+git config --global color.ui true
+git config --list --show-origin
+ls
+cd mytest
+git status
+git init
+git status
+nano .gitignore
+git add
+git status
+git add
+git status
+git add .
+git status
+git commit -m "first commit"
+git status
+nano test.py
+git status
+git add test.py
+git status
+git commit -m "added privet in test py"
+git status
+git log
+cd
+history > ~/history_output.txt
